@@ -1,0 +1,10 @@
+{
+  "id": "app",
+  "image": "rocket.chat:latest",
+  "env": {
+    "MONGO_URL": "mongodb://db:27017/rocketchat"
+  },
+  "cpu": 0.5,
+  "memory": 1024,
+  "dependencies": ["db"]
+}

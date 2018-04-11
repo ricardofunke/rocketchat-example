@@ -1,0 +1,9 @@
+{
+  "id": "proxy",
+  "cpu": 1,
+  "memory": 512,
+  "volumes": {
+    "data": "/data/db"
+  },
+  "zeroDowntime": true
+}

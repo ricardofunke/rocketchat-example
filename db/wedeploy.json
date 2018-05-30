@@ -1,8 +1,8 @@
 {
   "id": "db",
   "image": "mongo",
-  "cpu": 1,
-  "memory": 1024,
+  "cpu": 2,
+  "memory": 4096,
   "volumes": {
     "data": "/data/db"
   },

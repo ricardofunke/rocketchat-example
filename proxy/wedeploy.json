@@ -1,5 +1,9 @@
 {
     "id": "proxy",
     "cpu": 2,
-    "memory": 256
+    "memory": 256,
+    "env": {
+        "NGINX_PORT": "443",
+        "NGINX_HOST": "localhost"
+    }
 }

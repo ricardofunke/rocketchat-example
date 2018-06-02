@@ -1,6 +1,5 @@
 {
     "id": "proxy",
-    "image": "nginx",
     "cpu": 2,
     "memory": 256
 }

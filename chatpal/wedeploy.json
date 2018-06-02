@@ -1,0 +1,7 @@
+{
+  "id": "chatpal",
+  "image": "chatpal/search-standalone",
+  "cpu": 2,
+  "memory": 2048,
+  "dependencies": ["app"]
+}

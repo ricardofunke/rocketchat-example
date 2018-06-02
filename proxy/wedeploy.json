@@ -6,6 +6,6 @@
         "NGINX_HOST": "localhost"
     },
     "volumes" : {
-        "certs" : "/certs"
+        "ngconfd" : "/etc/nginx/conf.d"
     }
 }

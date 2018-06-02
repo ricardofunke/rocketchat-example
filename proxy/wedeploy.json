@@ -6,6 +6,6 @@
         "NGINX_HOST": "localhost"
     },
     "volumes" : {
-        "certs" : "/data/certs"
+        "certs" : "/certs"
     }
 }

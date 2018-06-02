@@ -2,9 +2,6 @@
     "id": "proxy",
     "cpu": 2,
     "memory": 256,
-    "env": {
-        "NGINX_HOST": "localhost"
-    },
     "volumes" : {
         "ngconfd" : "/etc/nginx/conf.d"
     }

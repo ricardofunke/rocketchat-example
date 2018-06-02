@@ -3,6 +3,6 @@
     "cpu": 2,
     "memory": 256,
     "volumes" : {
-        "ngconfd" : "/etc/nginx/conf.d"
+        "certs" : "/certs"
     }
 }

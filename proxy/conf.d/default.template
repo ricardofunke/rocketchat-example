@@ -3,7 +3,7 @@ upstream backend {
     server app:3000;
 }
 server {
-    listen       ${NGINX_PORT};
+    listen       443;
     server_name  ${NGINX_HOST};
 
     ssl on;

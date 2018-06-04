@@ -28,6 +28,8 @@ server {
     ssl_protocols       TLSv1 TLSv1.1 TLSv1.2; # don’t use SSLv3 ref: POODLE
     ssl_session_cache  builtin:1000 shared:SSL:10m;
 
+    proxy_buffering on;
+
     location / {
         proxy_pass http://app:3000;
         proxy_set_header Host $http_host;

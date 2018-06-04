@@ -26,7 +26,7 @@ server {
     ssl_certificate     /certs/certificate.crt;
     ssl_certificate_key /certs/certificate.key;
     ssl_protocols       TLSv1 TLSv1.1 TLSv1.2; # don’t use SSLv3 ref: POODLE
-    #ssl_session_cache  builtin:1000 shared:SSL:10m;
+    ssl_session_cache  builtin:1000 shared:SSL:10m;
 
     location / {
         proxy_pass http://app:3000;

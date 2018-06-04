@@ -2,6 +2,7 @@
     "id": "proxy",
     "cpu": 2,
     "memory": 256,
+    "port": 443,
     "volumes" : {
         "certs" : "/certs"
     }

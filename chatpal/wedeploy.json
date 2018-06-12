@@ -3,5 +3,6 @@
   "image": "chatpal/search-standalone",
   "cpu": 2,
   "memory": 2048,
+  "port": 0,
   "dependencies": ["app"]
 }

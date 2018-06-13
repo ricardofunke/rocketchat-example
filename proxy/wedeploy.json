@@ -1,6 +1,6 @@
 {
     "id": "proxy",
-    "cpu": 2,
+    "cpu": 1,
     "memory": 512,
     "port": 443,
     "volumes" : {

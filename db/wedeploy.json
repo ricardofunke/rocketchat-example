@@ -1,6 +1,6 @@
 {
   "id": "db",
-  "image": "mongo",
+  "image": "mongo:3.6.5-jessie",
   "cpu": 2,
   "memory": 4096,
   "port":0,

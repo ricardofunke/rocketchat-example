@@ -1,6 +1,6 @@
 {
   "id": "chatpal",
-  "image": "chatpal/search-standalone",
+  "image": "chatpal/search-standalone:latest",
   "cpu": 2,
   "memory": 2048,
   "port": 0,

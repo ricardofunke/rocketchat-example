@@ -1,4 +1,4 @@
-FROM nginx:1.15.0-alpine
+FROM nginx:1.15.2-alpine
 
 RUN mkdir /certs
 RUN mkdir /tmp/nginx_cache

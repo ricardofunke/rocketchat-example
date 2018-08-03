@@ -1,7 +1,6 @@
 FROM nginx:1.15.2-alpine
 
 RUN mkdir /certs
-RUN mkdir /tmp/nginx_cache
 
 COPY conf.d/* /etc/nginx/conf.d/
 COPY certs/* /certs/
